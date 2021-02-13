@@ -6,12 +6,49 @@ body {
 
 header p {
     color:white;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
 }
 header h1{
     color:rgb(150, 105, 255);
     text-align: center;
 }
+
+.snipHead {
+    color:rgb(150, 105, 255);
+    font-size: larger;
+    flex: 1 1 1;
+    padding: 10px;
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .card {
+      border-style: dashed;
+      text-align: center;
+      border-width: 1px;
+      max-width: 33%;
+  }
+  .card p {
+    color:rgb(150, 105, 255);
+  }
+
+  .products {
+    
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(3, 1fr);
+    column-count: 3;
+    column-gap: normal;
+    
+  }
+
 
 
 
